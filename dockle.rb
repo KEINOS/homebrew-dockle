@@ -2,9 +2,9 @@
 class Dockle < Formula
   desc ""
   homepage "https://github.com/goodwithtech/dockle"
-  url "https://github.com/goodwithtech/dockle/releases/download/v0.0.17/dockle_0.0.17_macOS-64bit.tar.gz"
-  version "0.0.17"
-  sha256 "9a848b352d73c1ec9ea3b6a9c18a780e178eba4cdeac5c28f4cf8ab0404cfce3"
+  url "https://github.com/goodwithtech/dockle/releases/download/v0.0.18/dockle_0.0.18_macOS-64bit.tar.gz"
+  version "0.0.18"
+  sha256 "7ab559921ff7a2b91e099cf53e293c474495bfb49ca7b219516141d41e44480d"
 
   def install
     bin.install "dockle"
