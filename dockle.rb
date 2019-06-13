@@ -2,14 +2,14 @@
 class Dockle < Formula
   desc ""
   homepage "https://github.com/goodwithtech/dockle"
-  version "0.1.2"
+  version "0.1.3"
 
   if OS.mac?
-    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.2/dockle_0.1.2_macOS-64bit.tar.gz"
-    sha256 "da468208b2136203f178798dc23eaa5a67a9b382cc329254675b7b6c29b15c07"
+    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.3/dockle_0.1.3_macOS-64bit.tar.gz"
+    sha256 "2c1f18047cd0adcc2b147104b31607ab56f4e8c292a20c5a5dc094785a4cf19d"
   elsif OS.linux?
-    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.2/dockle_0.1.2_Linux-64bit.tar.gz"
-    sha256 "6b0292e0207e7f869d40605466b011cb8b6849e4ca0f4a9b73a264f7f75fda07"
+    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.3/dockle_0.1.3_Linux-64bit.tar.gz"
+    sha256 "dc8724554a1b84e75ffb9337bba3fd8dc93c37f2cb7d1963c4cc2a0447e50b8c"
   end
 
   def install
