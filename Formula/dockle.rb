@@ -2,14 +2,14 @@
 class Dockle < Formula
   desc "Simple security auditing, helping build the Best Docker Images"
   homepage "https://github.com/goodwithtech/dockle"
-  version "0.1.5"
+  version "0.1.6"
 
   if OS.mac?
-    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.5/dockle_0.1.5_macOS-64bit.tar.gz"
-    sha256 "5de7c252b8a9b90d3724de81cfcace80dd722840a527ff6a464be1a8f125c240"
+    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.6/dockle_0.1.6_macOS-64bit.tar.gz"
+    sha256 "21308601be505f0fb2a9856f0d75e31220248c90c9bf877531bbd16ee7597a79"
   elsif OS.linux?
-    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.5/dockle_0.1.5_Linux-64bit.tar.gz"
-    sha256 "c90ade5bf1534a3f0e65c4c9eadd6a4cad2ec036e2b50a3e8542dfa58ca8d446"
+    url "https://github.com/goodwithtech/dockle/releases/download/v0.1.6/dockle_0.1.6_Linux-64bit.tar.gz"
+    sha256 "85de11b340d49ce53e21765eb4642a53271d377a77290ca486fd2399d3819e0b"
   end
 
   def install
